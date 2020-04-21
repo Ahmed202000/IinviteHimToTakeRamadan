@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".view.ConstipationTime">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:fontFamily="@font/extra_light"
+                    android:gravity="center"
+                    android:text="إمساكية شهر رمضان 2020"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="@dimen/_20sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الجمعة 24 أبريل الموافق 1 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:25"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:25"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السبت 25 أبريل الموافق 2 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:24"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:24"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الاحد 26 أبريل الموافق 3 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور31:25"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:23"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الاثنين 27 أبريل الموافق 4 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:22"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:22"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الثلاثاء 28 أبريل الموافق 5 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:25"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:22"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأربعاء 29 أبريل الموافق 6 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:19"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:19"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الخميس 30 أبريل الموافق 7 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:18"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:18"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الجمعة 1 مايو الموافق 8 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:17"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:17"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السبت 2 مايو الموافق 9 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:15"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:15"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأحد 3 مايو الموافق 10 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:14"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:14"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الاثنين 4 مايو الموافق 11 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:13"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:13"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الثلاثاء 5 مايو الموافق 12 رمضان "
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:12"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:13"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأربعاء 6 مايو الموافق 13 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:11"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:11"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الخميس 7 مايو الموافق 14 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:10"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 1025"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الجمعة 8 مايو الموافق 15 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:9"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:9"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السبت 9 مايو الموافق 16 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:8"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:8"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأحد 10 مايو الموافق 17 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:7"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:7"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الاثنين 11 مايو الموافق 18 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:6"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:6"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الثلاثاء 12 مايو الموافق 19 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:5"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:5"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأربعاء 13 مايو الموافق 20 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:4"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:4"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الخميس 14 مايو الموافق 21 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الجمعة 15 مايو الموافق 22 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السبت 16 مايو الموافق 23 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:1"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:1"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأحد 17 مايو الموافق 24 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 1:00"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:00"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الاثنين 18 مايو الموافق 25 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 2:59"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 3:19"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الثلاثاء 19 مايو الموافق 26 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 12:58"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 2:58"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الأربعاء 20 مايو الموافق 27 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 12:58"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 2:58"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الخميس 21 يونيو الموافق 28 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 12:57"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 2:57"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="الجمعة 22 مايو الموافق 29 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 12:56"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 2:56"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السبت 23 مايو الموافق 30 رمضان"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="السحور 12:55"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:text="إمساك 2:55"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

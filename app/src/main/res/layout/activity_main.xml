@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbbb"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@color/colorPrimary" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fillViewport="false">
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/extra_light"
+                    android:text="شهر رمضان 2020 ميلادياً "
+                    android:gravity="center"
+                    android:textSize="@dimen/_18sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/extra_light"
+                    android:text="1441 هجرياً"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/r1"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/activity_main_prayer_times"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/prayer_times"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/activity_main_constipation_time"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/constipation_time"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp">
+
+
+
+                    <Button
+                        android:id="@+id/activity_main_remember_allah"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/remember_allah"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+
+                    <Button
+                        android:id="@+id/activity_main_Invite_breakfast_time"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/Invite_breakfast_time"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r3"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <Button
+                        android:id="@+id/activity_main_remember_the_morning"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/remember_the_morning"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+
+
+                    <Button
+                        android:id="@+id/activity_main_pray_for_suhoor"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/pray_for_suhoor"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r4"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/activity_main_abut_app"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/abut_app"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/activity_main_evening_prayers"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/evening_prayers"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r5"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <Button
+                        android:id="@+id/activity_main_sating"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/sating"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/activity_main_share"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/shape_butt"
+                        android:fontFamily="@font/extra_light"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/share"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

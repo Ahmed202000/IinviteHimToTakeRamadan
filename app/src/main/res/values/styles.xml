@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+        <!--
+        we create azanTimePrimaryStyle because we want to override some default values using
+        different qualifier (like values-v17/styles or values-ar/styles
+        -->
+        <style name="azanTimeStyle" parent="@style/azanTimePrimaryStyle"></style>
+
+        <style name="azanTimePrimaryStyle">
+            <item name="android:gravity">end</item>
+            <item name="android:layout_width">@dimen/azan_time_text_view_size</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">@android:color/black</item>
+            <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+            <item name="android:padding">8dp</item>
+        </style>
+
+        <style name="azanTimeLabelStyle" parent="@style/azanTimePrimaryStyle">
+            <item name="android:gravity">start</item>
+        </style>
+
+        <style name="azanTimeLayoutStyle" parent="@style/azanTimeLayoutPrimaryStyle"></style>
+
+        <style name="azanTimeLayoutPrimaryStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:gravity">center_horizontal</item>
+        </style>
+
+        <style name="widgetTextViewStyle">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_margin">8dp</item>
+            <item name="android:background">#09C</item>
+            <item name="android:textSize">@dimen/widget_text_size</item>
+            <item name="android:textColor">#ffffff</item>
+
+        </style>
+
+</resources>

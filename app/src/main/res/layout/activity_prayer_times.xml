@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.PrayerTimes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/error_no_connection_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:text="@string/no_connection_message"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="3"
+                android:onClick="errorRetryButtonHandler"
+                android:padding="16dp"
+                android:text="@string/retry_label" />
+
+        </LinearLayout>
+
+        <!--  IMPORTANT: for the next linear layout
+        set android:orientation to "vertical"
+        otherwise layout_gravity won't be centered for please_wait_message-->
+        <LinearLayout
+            android:id="@+id/downloading_wait_or_failed_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/downloading_wait_or_failed_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/please_wait_message"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_red_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/azan_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrease_day_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/date_textview"
+                    android:onClick="changeDayButtonHandler"
+                    android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    />
+
+                <TextView
+                    android:id="@+id/date_textview"
+                    android:layout_width="@dimen/date_text_view_size"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/white"
+                    tools:text="3 Jan 2018" />
+
+                <Button
+                    android:id="@+id/increase_day_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/date_textview"
+                    android:onClick="changeDayButtonHandler"
+                    android:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+            </RelativeLayout>
+
+            <!-- 5 Times for Azan-->
+            <LinearLayout
+                android:layout_marginTop="@dimen/_50sdp"
+                android:id="@+id/time_fajr_layout"
+                style="@style/azanTimeLayoutStyle"
+                tools:background="@color/colorPrimaryLight">
+
+                <TextView
+                    android:id="@+id/label_fajr_textview"
+
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_fajr"
+
+                    />
+
+                <TextView
+                    android:id="@+id/time_fajr_textview"
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_shurooq_layout"
+                style="@style/azanTimeLayoutStyle"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/label_shurooq_textview"
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_shurooq"
+
+                    />
+
+                <TextView
+                    android:id="@+id/time_shurooq_textview"
+
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_dhuhr_layout"
+                style="@style/azanTimeLayoutStyle">
+
+
+                <TextView
+                    android:id="@+id/label_dhuhr_textview"
+
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_dhuhr" />
+
+                <TextView
+                    android:id="@+id/time_dhuhr_textview"
+
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_asr_layout"
+                style="@style/azanTimeLayoutStyle">
+
+
+                <TextView
+                    android:id="@+id/label_asr_textview"
+
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_asr" />
+
+                <TextView
+                    android:id="@+id/time_asr_textview"
+
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_maghrib_layout"
+                style="@style/azanTimeLayoutStyle">
+
+
+                <TextView
+                    android:id="@+id/label_maghrib_textview"
+
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_maghrib" />
+
+                <TextView
+                    android:id="@+id/time_maghrib_textview"
+
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_ishaa_layout"
+                style="@style/azanTimeLayoutStyle">
+
+
+                <TextView
+                    android:id="@+id/label_ishaa_textview"
+
+                    style="@style/azanTimeLabelStyle"
+                    android:text="@string/label_ishaa"
+
+                    />
+
+                <TextView
+                    android:id="@+id/time_ishaa_textview"
+
+                    style="@style/azanTimeStyle"
+                    tools:text="@string/test_time"
+
+
+                    />
+
+            </LinearLayout>
+
+            <!-- END of 5 Times for Azan-->
+
+            <Button
+                android:id="@+id/test_launch_play_azan_activity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="testPlayAzanActivityButtonHandler"
+                android:text="Launch Play Azan Activity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
