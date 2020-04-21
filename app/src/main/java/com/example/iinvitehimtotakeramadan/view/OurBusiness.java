@@ -28,6 +28,10 @@ public class OurBusiness extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_our_business);
         ButterKnife.bind(this);
+
+
+
+        /////////////
     }
 
     @OnClick({R.id.activity_our_business_app_albaze_wep_sit, R.id.activity_our_business_app_albaze_provider, R.id.activity_our_business_app_albaze_user})
